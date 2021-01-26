@@ -1,0 +1,54 @@
+let a = 3;
+let b = 5;
+let c;
+
+let task1 = '';
+task1 += 'let a = 3;';
+task1 += '\n';
+task1 += 'let b = 5;';
+task1 +=' \n';
+task1 += 'let c;';
+task1 += '\n';
+task1 += '-----------';
+task1 += '\n';
+task1 += 'a + b = ' + (a + b);
+task1 += '\n';
+task1 += 'a - b = ' + (a - b);
+task1 += '\n';
+task1 += 'a * b = ' + (a * b);
+task1 += '\n';
+task1 += 'a / b = ' + (a / b);
+task1 += '\n';
+task1 += 'a % b = ' + (a % b);
+task1 += '\n';
+task1 += '(a += b): ' + (a += b);
+task1 += '\n';
+task1 += '(a -= b): ' + (a -= b);
+task1 += '\n';
+task1 += '(a *= b): ' + (a *= b);
+task1 += '\n';
+task1 += '(a /= b): ' + (a /= b);
+task1 += '\n';
+task1 += '(a %= b): ' + (a %= b);
+task1 += '\n';
+task1 += '(a == b): ' + (a == b);
+task1 += '\n';
+task1 += '(a != b): ' + (a != b);
+task1 += '\n';
+task1 += '(a > b): ' + (a > b);
+task1 += '\n';
+task1 += '(a < b): ' + (a < b);
+task1 += '\n';
+task1 += '(!a && !c): ' + (!a && !c );
+task1 += '\n';
+task1 += '(!a || !c): ' + (!a || !c);
+task1 += '\n';
+
+alert(task1);
+
+let first_name = "Maya";
+let last_name = "Dandach";
+let email = "dand0024@algonquinlive.com";
+let output = "My name is " + first_name + " " + last_name + ". You can contact me at " + email + ".";
+
+alert(output);
